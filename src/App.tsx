@@ -1,11 +1,10 @@
-import { useState } from "react";
+import SaveConverter from "./SaveConverter";
+
 import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
     <>
       <div>
@@ -16,17 +15,25 @@ function App() {
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
       </div>
-      <h1>Vite + React</h1>
+      <h1>fapi-save.txt to JSON Converter</h1>
       <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
+        <h2>Instructions</h2>
+        <p>Upload your fapi-save.txt file</p>
+        <p>Directory where save file exists:</p>
         <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
+          <code>
+            %AppData%\..\LocalLow\Oni Gaming\Farmer Against Potatoes Idle
+          </code>{" "}
         </p>
+        <h2>Upload file</h2>
+        <SaveConverter />
       </div>
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
+      </p>
+      <p className="read-the-docs">
+        Find the Github repo{" "}
+        <a href="https://github.com/gendelbendel/fapi-tools"> here.</a>
       </p>
     </>
   );
