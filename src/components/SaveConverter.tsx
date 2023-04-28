@@ -1,6 +1,12 @@
 import pako from "pako";
+import { useAtom } from "jotai";
+
+import { isObjectEmpty } from "../util/object";
+import { saveDataAtom } from "../util/atoms";
 
 export default function SaveConverter() {
+  const [saveData, setSaveData] = useAtom(saveDataAtom);
+
   const handleFileUpload = async (e: React.ChangeEvent<HTMLInputElement>) => {
     if (!e.target.files) return;
     const file = e.target.files[0];
@@ -19,17 +25,25 @@ export default function SaveConverter() {
 
       try {
         const parsedJson = JSON.parse(jsonString);
-        downloadFile({
-          data: JSON.stringify(parsedJson, null, 2),
-          fileName: "fapi-save-json.json",
-          fileType: "text/json",
-        });
+        setSaveData(parsedJson);
       } catch (error) {
         console.error("Invalid JSON:", error);
       }
     };
 
     fileReader.readAsArrayBuffer(file);
+  };
+
+  const downloadSaveHandler = () => {
+    downloadFile({
+      data: JSON.stringify(saveData, null, 2),
+      fileName: "fapi-save-json.json",
+      fileType: "text/json",
+    });
+  };
+
+  const removeSaveHandler = () => {
+    setSaveData({});
   };
 
   const downloadFile = ({
@@ -57,5 +71,15 @@ export default function SaveConverter() {
     a.remove();
   };
 
-  return <input type="file" onChange={handleFileUpload} accept=".txt" />;
+  return (
+    <div>
+      <input type="file" onChange={handleFileUpload} accept=".txt" />
+      {!isObjectEmpty(saveData) && (
+        <>
+          <button onClick={downloadSaveHandler}>Download Save</button>
+          <button onClick={removeSaveHandler}>Clear site data</button>
+        </>
+      )}
+    </div>
+  );
 }
