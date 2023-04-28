@@ -3,8 +3,10 @@ import { useAtom } from "jotai";
 
 import { isObjectEmpty } from "../util/object";
 import { saveDataAtom } from "../util/atoms";
+import { useRef } from "react";
 
 export default function SaveConverter() {
+  const inputField = useRef<HTMLInputElement>(null);
   const [saveData, setSaveData] = useAtom(saveDataAtom);
 
   const handleFileUpload = async (e: React.ChangeEvent<HTMLInputElement>) => {
@@ -26,6 +28,8 @@ export default function SaveConverter() {
       try {
         const parsedJson = JSON.parse(jsonString);
         setSaveData(parsedJson);
+        if (inputField.current) inputField.current.value = "";
+        console.log("here");
       } catch (error) {
         console.error("Invalid JSON:", error);
       }
@@ -71,9 +75,21 @@ export default function SaveConverter() {
     a.remove();
   };
 
+  const uploadFileButtonHandler = () => {
+    document.getElementById("uploadFile")?.click();
+  };
+
   return (
-    <div>
-      <input type="file" onChange={handleFileUpload} accept=".txt" />
+    <div className="upload-buttons">
+      <button onClick={uploadFileButtonHandler}>Upload Save</button>
+      <input
+        type="file"
+        ref={inputField}
+        onChange={handleFileUpload}
+        accept=".txt"
+        hidden
+        id="uploadFile"
+      />
       {!isObjectEmpty(saveData) && (
         <>
           <button onClick={downloadSaveHandler}>Download Save</button>

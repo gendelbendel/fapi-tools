@@ -30,11 +30,10 @@ function App() {
               </p>
             </div>
           )}
-          <h2>Upload file</h2>
           <SaveConverter />
         </div>
         {!isObjectEmpty(saveData) && (
-          <div>
+          <div className="card">
             <AscensionInfo />
             <InfinityCorner />
           </div>

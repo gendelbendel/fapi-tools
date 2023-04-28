@@ -26,3 +26,20 @@
 .read-the-docs {
   color: #888;
 }
+
+.upload-buttons {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.infinity-list {
+  text-align: center;
+}
+.infinity-list > ul {
+  display: inline-block;
+  list-style-position: outside;
+  /* list-style-type: none; */
+  padding-inline-start: 0;
+}

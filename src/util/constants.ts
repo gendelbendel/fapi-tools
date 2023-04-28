@@ -3,7 +3,7 @@ import { InfinityCornerConstant } from "../ts/interfaces/constants.interfaces";
 const infinityCorner: ReadonlyArray<InfinityCornerConstant> = [
   {
     id: 1,
-    name: "Star",
+    name: "Star (All upgrades)",
     suggestedWeight: 100,
     suggestedWeightType: "percent",
     ascensionReq: 3,

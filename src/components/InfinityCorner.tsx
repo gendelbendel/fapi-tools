@@ -11,27 +11,29 @@ export default function InfinityCorner() {
   return (
     <div>
       <h2>Infinity Corner</h2>
-      <ul>
-        {infinityCorner.map((upgrade) => (
-          <li>
-            <Tooltip
-              title={`Ascension count requirement: ${upgrade.ascensionReq}`}
-              arrow
-              placement="right"
-            >
-              <span
-                className={
-                  upgrade.ascensionReq > saveData.AscensionCount!
-                    ? "ascension-too-low"
-                    : ""
-                }
+      <div className="infinity-list">
+        <ul>
+          {infinityCorner.map((upgrade) => (
+            <li key={upgrade.id}>
+              <Tooltip
+                title={`Ascension count requirement: ${upgrade.ascensionReq}`}
+                arrow
+                placement="right"
               >
-                "{upgrade.name}" level: {saveData[upgrade.saveKey] as number}
-              </span>
-            </Tooltip>
-          </li>
-        ))}
-      </ul>
+                <span
+                  className={
+                    upgrade.ascensionReq > saveData.AscensionCount!
+                      ? "ascension-too-low"
+                      : ""
+                  }
+                >
+                  "{upgrade.name}" level: {saveData[upgrade.saveKey] as number}
+                </span>
+              </Tooltip>
+            </li>
+          ))}
+        </ul>
+      </div>
     </div>
   );
 }
