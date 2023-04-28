@@ -16,6 +16,7 @@ function App() {
   return (
     <>
       <div className="container">
+        <h1>FAPI (Farmer Against Potatoes Idle) Tools</h1>
         <div className="card">
           {isObjectEmpty(saveData) && (
             <div>

@@ -10,6 +10,3 @@ export interface InfinityCornerConstant {
   growthMulti: number;
   saveKey: keyof FAPISaveData;
 }
-
-export interface InfinityCornerConstants
-  extends ReadonlyArray<InfinityCornerConstant> {}

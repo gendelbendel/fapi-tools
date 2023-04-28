@@ -1,6 +1,6 @@
-import { InfinityCornerConstants } from "../ts/interfaces/constants.interfaces";
+import { InfinityCornerConstant } from "../ts/interfaces/constants.interfaces";
 
-const infinityCorner: InfinityCornerConstants = [
+const infinityCorner: ReadonlyArray<InfinityCornerConstant> = [
   {
     id: 1,
     name: "Star",
