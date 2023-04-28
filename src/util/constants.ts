@@ -64,7 +64,7 @@ const infinityCorner: ReadonlyArray<InfinityCornerConstant> = [
   {
     id: 7,
     name: "Confection",
-    suggestedWeight: 10,
+    suggestedWeight: 1,
     suggestedWeightType: "flat",
     ascensionReq: 3,
     growth: 1.1,
@@ -74,7 +74,7 @@ const infinityCorner: ReadonlyArray<InfinityCornerConstant> = [
   {
     id: 8,
     name: "Poop",
-    suggestedWeight: 10,
+    suggestedWeight: 1,
     suggestedWeightType: "flat",
     ascensionReq: 4,
     growth: 1.1,
@@ -84,7 +84,7 @@ const infinityCorner: ReadonlyArray<InfinityCornerConstant> = [
   {
     id: 9,
     name: "Whack Score",
-    suggestedWeight: 10,
+    suggestedWeight: 1,
     suggestedWeightType: "flat",
     ascensionReq: 4,
     growth: 1.1,
@@ -94,7 +94,7 @@ const infinityCorner: ReadonlyArray<InfinityCornerConstant> = [
   {
     id: 10,
     name: "Item Rating",
-    suggestedWeight: 10,
+    suggestedWeight: 1227,
     suggestedWeightType: "flat",
     ascensionReq: 5,
     growth: 1.15,
@@ -104,7 +104,7 @@ const infinityCorner: ReadonlyArray<InfinityCornerConstant> = [
   {
     id: 11,
     name: "Milk",
-    suggestedWeight: 10,
+    suggestedWeight: 44,
     suggestedWeightType: "flat",
     ascensionReq: 5,
     growth: 1.15,
@@ -114,7 +114,7 @@ const infinityCorner: ReadonlyArray<InfinityCornerConstant> = [
   {
     id: 12,
     name: "Brewing EXP",
-    suggestedWeight: 10,
+    suggestedWeight: 1,
     suggestedWeightType: "flat",
     ascensionReq: 6,
     growth: 1.2,
@@ -125,7 +125,7 @@ const infinityCorner: ReadonlyArray<InfinityCornerConstant> = [
     id: 13,
     name: "Larva Efficiency",
     suggestedWeightType: "flat",
-    suggestedWeight: 10,
+    suggestedWeight: 1,
     ascensionReq: 6,
     growth: 1.2,
     growthMulti: 25,
@@ -134,9 +134,9 @@ const infinityCorner: ReadonlyArray<InfinityCornerConstant> = [
   {
     id: 14,
     name: "Calcium",
-    suggestedWeight: 10,
+    suggestedWeight: 1,
     suggestedWeightType: "flat",
-    ascensionReq: 7,
+    ascensionReq: 8,
     growth: 1.25,
     growthMulti: 50,
     saveKey: "REP3CalciumLevel",
@@ -145,8 +145,8 @@ const infinityCorner: ReadonlyArray<InfinityCornerConstant> = [
     id: 15,
     name: "Fermenting EXP",
     suggestedWeightType: "flat",
-    suggestedWeight: 10,
-    ascensionReq: 7,
+    suggestedWeight: 1,
+    ascensionReq: 8,
     growth: 1.25,
     growthMulti: 50,
     saveKey: "REP3FermentingLevel",
@@ -154,7 +154,7 @@ const infinityCorner: ReadonlyArray<InfinityCornerConstant> = [
   {
     id: 16,
     name: "Pet Damage",
-    suggestedWeight: 10,
+    suggestedWeight: 2455,
     suggestedWeightType: "flat",
     ascensionReq: 10,
     growth: 1.4,
@@ -164,7 +164,7 @@ const infinityCorner: ReadonlyArray<InfinityCornerConstant> = [
   {
     id: 17,
     name: "Pet Level EXP",
-    suggestedWeight: 10,
+    suggestedWeight: 1473,
     suggestedWeightType: "flat",
     ascensionReq: 10,
     growth: 1.4,
@@ -174,7 +174,7 @@ const infinityCorner: ReadonlyArray<InfinityCornerConstant> = [
   {
     id: 18,
     name: "Card Power",
-    suggestedWeight: 10,
+    suggestedWeight: 245,
     suggestedWeightType: "flat",
     ascensionReq: 12,
     growth: 1.5,
@@ -184,7 +184,7 @@ const infinityCorner: ReadonlyArray<InfinityCornerConstant> = [
   {
     id: 19,
     name: "Residue",
-    suggestedWeight: 10,
+    suggestedWeight: 614,
     suggestedWeightType: "flat",
     ascensionReq: 12,
     growth: 1.5,
