@@ -29,7 +29,6 @@ export default function SaveConverter() {
         const parsedJson = JSON.parse(jsonString);
         setSaveData(parsedJson);
         if (inputField.current) inputField.current.value = "";
-        console.log("here");
       } catch (error) {
         console.error("Invalid JSON:", error);
       }

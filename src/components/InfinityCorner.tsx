@@ -22,7 +22,7 @@ export default function InfinityCorner() {
               >
                 <span
                   className={
-                    upgrade.ascensionReq > saveData.AscensionCount!
+                    upgrade.ascensionReq > (saveData.AscensionCount || 0)
                       ? "ascension-too-low"
                       : ""
                   }
