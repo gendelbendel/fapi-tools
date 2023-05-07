@@ -13,6 +13,7 @@
     "@emotion/react": "^11.10.8",
     "@emotion/styled": "^11.10.8",
     "@mui/material": "^5.12.2",
+    "@vercel/analytics": "^1.0.1",
     "jotai": "^2.0.4",
     "pako": "^2.1.0",
     "react": "^18.2.0",
