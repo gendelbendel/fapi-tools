@@ -38,7 +38,7 @@ Find it here: https://fapi-tools.vercel.app/
       - [ ] Current bonuses when on expedition
     - [ ] Display current teams
 - [ ] More features
-  - [ ] Have any ideas? Make suggestions in the Discord thread or creating a Github issue.
+  - [ ] Have any ideas? Make suggestions in the [Discord thread](https://discord.com/channels/481594050999353345/1113942954403446846/1113943004542160956) or creating a Github issue.
 
 ## Change log
 
