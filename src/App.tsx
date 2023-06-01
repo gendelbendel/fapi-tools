@@ -1,5 +1,6 @@
 import { useAtom } from "jotai";
 
+import Instructions from "./components/Instructions";
 import SaveConverter from "./components/SaveConverter";
 import AscensionInfo from "./components/AscensionInfo";
 import InfinityCorner from "./components/InfinityCorner";
@@ -18,18 +19,7 @@ function App() {
       <div className="container">
         <h1>FAPI (Farmer Against Potatoes Idle) Tools</h1>
         <div className="card">
-          {isObjectEmpty(saveData) && (
-            <div>
-              <h2>Instructions</h2>
-              <p>Upload your fapi-save.txt file</p>
-              <p>Directory where save file exists:</p>
-              <p>
-                <code>
-                  %AppData%\..\LocalLow\Oni Gaming\Farmer Against Potatoes Idle
-                </code>{" "}
-              </p>
-            </div>
-          )}
+          <Instructions />
           <SaveConverter />
         </div>
         {!isObjectEmpty(saveData) && (
