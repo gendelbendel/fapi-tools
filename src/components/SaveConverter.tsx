@@ -91,7 +91,7 @@ export default function SaveConverter() {
       />
       {!isObjectEmpty(saveData) && (
         <>
-          <button onClick={downloadSaveHandler}>Download Save</button>
+          {/* <button onClick={downloadSaveHandler}>Download Save</button> */}
           <button onClick={removeSaveHandler}>Clear site data</button>
         </>
       )}
