@@ -40,6 +40,6 @@
 .infinity-list > ul {
   display: inline-block;
   list-style-position: outside;
-  /* list-style-type: none; */
+  list-style-type: none;
   padding-inline-start: 0;
 }
