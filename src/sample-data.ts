@@ -23,4 +23,506 @@ export const sampleData = {
   REP3ResidueBonusLevel: 0,
   REP3UpgradeAllLevel: 23,
   AscensionCount: 8,
+  CardsCollection: [
+    {
+      ID: 17,
+      Level: 10,
+      PowerTemp: 6906.5495565738875,
+      PowerPerma: 735.1304726578081,
+      CurrentExp: 949.1697499999932,
+      ExpNeeded: 1340.0956406250004,
+      PowerTempBD: {
+        mantissa: 1.6521814838738504,
+        exponent: 4,
+      },
+      PowerPermaBD: {
+        mantissa: 1.74310638796991,
+        exponent: 3,
+      },
+      CurrentExpBD: {
+        mantissa: 1.60836740127685,
+        exponent: 3,
+      },
+      ExpNeededBD: {
+        mantissa: 1.628894626777442,
+        exponent: 3,
+      },
+      Found: 1,
+    },
+    {
+      ID: 1,
+      Level: 13,
+      PowerTemp: 7372.900736203254,
+      PowerPerma: 1433.768588467058,
+      CurrentExp: 23.635374218747984,
+      ExpNeeded: 1477.455443789063,
+      PowerTempBD: {
+        mantissa: 2.25835988659383,
+        exponent: 4,
+      },
+      PowerPermaBD: {
+        mantissa: 2.35065217840555,
+        exponent: 3,
+      },
+      CurrentExpBD: {
+        mantissa: 4.99886786870446,
+        exponent: 2,
+      },
+      ExpNeededBD: {
+        mantissa: 1.8856491423232367,
+        exponent: 3,
+      },
+      Found: 1,
+    },
+    {
+      ID: 2,
+      Level: 5,
+      PowerTemp: 664.6825994133877,
+      PowerPerma: 1251.4101434719737,
+      CurrentExp: 987.7669687499998,
+      ExpNeeded: 1000,
+      PowerTempBD: {
+        mantissa: 7.17538138848267,
+        exponent: 3,
+      },
+      PowerPermaBD: {
+        mantissa: 1.25141014347197,
+        exponent: 3,
+      },
+      CurrentExpBD: {
+        mantissa: 7.11702825693216,
+        exponent: 2,
+      },
+      ExpNeededBD: {
+        mantissa: 1.2762815625000004,
+        exponent: 3,
+      },
+      Found: 1,
+    },
+    {
+      ID: 3,
+      Level: 3,
+      PowerTemp: 277.313439144016,
+      PowerPerma: 153.15419990273145,
+      CurrentExp: 283.4999999999999,
+      ExpNeeded: 1000,
+      PowerTempBD: {
+        mantissa: 5.24128742238401,
+        exponent: 3,
+      },
+      PowerPermaBD: {
+        mantissa: 1.53154199902731,
+        exponent: 2,
+      },
+      CurrentExpBD: {
+        mantissa: 8.22947776455232,
+        exponent: 2,
+      },
+      ExpNeededBD: {
+        mantissa: 1.1576250000000001,
+        exponent: 3,
+      },
+      Found: 1,
+    },
+    {
+      ID: 9,
+      Level: 8,
+      PowerTemp: 5593.163864689371,
+      PowerPerma: 1696.3897411597948,
+      CurrentExp: 92.2716874999694,
+      ExpNeeded: 1276.2815625000003,
+      PowerTempBD: {
+        mantissa: 1.18051735398428,
+        exponent: 4,
+      },
+      PowerPermaBD: {
+        mantissa: 2.66650940678998,
+        exponent: 3,
+      },
+      CurrentExpBD: {
+        mantissa: 1.29730048649389,
+        exponent: 3,
+      },
+      ExpNeededBD: {
+        mantissa: 1.47745544378906,
+        exponent: 3,
+      },
+      Found: 1,
+    },
+    {
+      ID: 6,
+      Level: 8,
+      PowerTemp: 3274.824844741826,
+      PowerPerma: 1395.4328294580828,
+      CurrentExp: 630.3125,
+      ExpNeeded: 1157.6250000000002,
+      PowerTempBD: {
+        mantissa: 1.1645906036131417,
+        exponent: 4,
+      },
+      PowerPermaBD: {
+        mantissa: 3.63990792794812,
+        exponent: 3,
+      },
+      CurrentExpBD: {
+        mantissa: 4.4151480030586,
+        exponent: 2,
+      },
+      ExpNeededBD: {
+        mantissa: 1.477455443789063,
+        exponent: 3,
+      },
+      Found: 1,
+    },
+    {
+      ID: 5,
+      Level: 11,
+      PowerTemp: 4081.0390288715816,
+      PowerPerma: 1186.5095011514036,
+      CurrentExp: 151.82834374999197,
+      ExpNeeded: 1215.5062500000001,
+      PowerTempBD: {
+        mantissa: 1.80906064687662,
+        exponent: 4,
+      },
+      PowerPermaBD: {
+        mantissa: 2.58725772689589,
+        exponent: 3,
+      },
+      CurrentExpBD: {
+        mantissa: 1.1258467652729,
+        exponent: 2,
+      },
+      ExpNeededBD: {
+        mantissa: 1.7103393581163142,
+        exponent: 3,
+      },
+      Found: 1,
+    },
+    {
+      ID: 14,
+      Level: 5,
+      PowerTemp: 881.1455101941816,
+      PowerPerma: 115.33036646137035,
+      CurrentExp: 240.38374999999985,
+      ExpNeeded: 1050,
+      PowerTempBD: {
+        mantissa: 7.63086408254373,
+        exponent: 3,
+      },
+      PowerPermaBD: {
+        mantissa: 1.1533036646137,
+        exponent: 2,
+      },
+      CurrentExpBD: {
+        mantissa: 2.93330636423373,
+        exponent: 2,
+      },
+      ExpNeededBD: {
+        mantissa: 1.2762815625000004,
+        exponent: 3,
+      },
+      Found: 1,
+    },
+    {
+      ID: 15,
+      Level: 0,
+      PowerTemp: 0,
+      PowerPerma: 72.64889296874999,
+      CurrentExp: 0,
+      ExpNeeded: 1000,
+      PowerTempBD: {
+        mantissa: 0,
+        exponent: 0,
+      },
+      PowerPermaBD: {
+        mantissa: 7.264889296875,
+        exponent: 1,
+      },
+      CurrentExpBD: {
+        mantissa: 0,
+        exponent: 0,
+      },
+      ExpNeededBD: {
+        mantissa: 1,
+        exponent: 3,
+      },
+      Found: 1,
+    },
+    {
+      ID: 16,
+      Level: 16,
+      PowerTemp: 10550.152343632406,
+      PowerPerma: 837.6325740389293,
+      CurrentExp: 1243.0573991796664,
+      ExpNeeded: 1551.3282159785163,
+      PowerTempBD: {
+        mantissa: 3.00768992267438,
+        exponent: 4,
+      },
+      PowerPermaBD: {
+        mantissa: 4.1624912292062,
+        exponent: 3,
+      },
+      CurrentExpBD: {
+        mantissa: 3.7517781445776,
+        exponent: 2,
+      },
+      ExpNeededBD: {
+        mantissa: 2.182874588381937,
+        exponent: 3,
+      },
+      Found: 1,
+    },
+    {
+      ID: 8,
+      Level: 1,
+      PowerTemp: 391.7857936432001,
+      PowerPerma: 38.27650781249997,
+      CurrentExp: 435.1213124999999,
+      ExpNeeded: 1000,
+      PowerTempBD: {
+        mantissa: 2.05921027342483,
+        exponent: 3,
+      },
+      PowerPermaBD: {
+        mantissa: 3.82765078125,
+        exponent: 1,
+      },
+      CurrentExpBD: {
+        mantissa: 8.3270486767473,
+        exponent: 2,
+      },
+      ExpNeededBD: {
+        mantissa: 1.05,
+        exponent: 3,
+      },
+      Found: 1,
+    },
+    {
+      ID: 10,
+      Level: 3,
+      PowerTemp: 415.970158716024,
+      PowerPerma: 131.6213482172645,
+      CurrentExp: 425.24999999999983,
+      ExpNeeded: 1000,
+      PowerTempBD: {
+        mantissa: 4.52079715752403,
+        exponent: 3,
+      },
+      PowerPermaBD: {
+        mantissa: 1.56943306932182,
+        exponent: 2,
+      },
+      CurrentExpBD: {
+        mantissa: 7.44076807710108,
+        exponent: 2,
+      },
+      ExpNeededBD: {
+        mantissa: 1.1576250000000001,
+        exponent: 3,
+      },
+      Found: 1,
+    },
+    {
+      ID: 11,
+      Level: 10,
+      PowerTemp: 3981.8495851750367,
+      PowerPerma: 189.26069699968042,
+      CurrentExp: 1063.9325000000022,
+      ExpNeeded: 1215.5062500000001,
+      PowerTempBD: {
+        mantissa: 1.59088608778186,
+        exponent: 4,
+      },
+      PowerPermaBD: {
+        mantissa: 2.17061908202389,
+        exponent: 2,
+      },
+      CurrentExpBD: {
+        mantissa: 6.9979247034686,
+        exponent: 2,
+      },
+      ExpNeededBD: {
+        mantissa: 1.628894626777442,
+        exponent: 3,
+      },
+      Found: 1,
+    },
+    {
+      ID: 12,
+      Level: 14,
+      PowerTemp: 9543.098063884538,
+      PowerPerma: 672.0826992176721,
+      CurrentExp: 1238.9916023046783,
+      ExpNeeded: 1551.3282159785163,
+      PowerTempBD: {
+        mantissa: 2.05389403887796,
+        exponent: 4,
+      },
+      PowerPermaBD: {
+        mantissa: 3.23267920025545,
+        exponent: 3,
+      },
+      CurrentExpBD: {
+        mantissa: 2.4761102795108,
+        exponent: 2,
+      },
+      ExpNeededBD: {
+        mantissa: 1.9799315994393987,
+        exponent: 3,
+      },
+      Found: 1,
+    },
+    {
+      ID: 13,
+      Level: 7,
+      PowerTemp: 4014.1836063903334,
+      PowerPerma: 1091.871832871956,
+      CurrentExp: 259.7170624999939,
+      ExpNeeded: 1215.5062500000001,
+      PowerTempBD: {
+        mantissa: 9.40469247570434,
+        exponent: 3,
+      },
+      PowerPermaBD: {
+        mantissa: 1.43976809925745,
+        exponent: 3,
+      },
+      CurrentExpBD: {
+        mantissa: 4.3556455434,
+        exponent: 0,
+      },
+      ExpNeededBD: {
+        mantissa: 1.4071004226562505,
+        exponent: 3,
+      },
+      Found: 1,
+    },
+    {
+      ID: 19,
+      Level: 9,
+      PowerTemp: 2999.241386801027,
+      PowerPerma: 673.1168087130881,
+      CurrentExp: 960.2187500000042,
+      ExpNeeded: 1157.6250000000002,
+      PowerTempBD: {
+        mantissa: 1.3623434297401873,
+        exponent: 4,
+      },
+      PowerPermaBD: {
+        mantissa: 2.78537147522695,
+        exponent: 3,
+      },
+      CurrentExpBD: {
+        mantissa: 1.13423614899715,
+        exponent: 3,
+      },
+      ExpNeededBD: {
+        mantissa: 1.5513282159785162,
+        exponent: 3,
+      },
+      Found: 1,
+    },
+    {
+      ID: 18,
+      Level: 3,
+      PowerTemp: 374.97032635819687,
+      PowerPerma: 1282.085946313606,
+      CurrentExp: 432.4585781249999,
+      ExpNeeded: 1000,
+      PowerTempBD: {
+        mantissa: 4.82495355218108,
+        exponent: 3,
+      },
+      PowerPermaBD: {
+        mantissa: 1.41602952564254,
+        exponent: 3,
+      },
+      CurrentExpBD: {
+        mantissa: 1.114815073813718,
+        exponent: 3,
+      },
+      ExpNeededBD: {
+        mantissa: 1.157625,
+        exponent: 3,
+      },
+      Found: 1,
+    },
+    {
+      ID: 4,
+      Level: 0,
+      PowerTemp: 0,
+      PowerPerma: 68.76399502698233,
+      CurrentExp: 0,
+      ExpNeeded: 1000,
+      PowerTempBD: {
+        mantissa: 0,
+        exponent: 0,
+      },
+      PowerPermaBD: {
+        mantissa: 6.87639950269823,
+        exponent: 1,
+      },
+      CurrentExpBD: {
+        mantissa: 0,
+        exponent: 0,
+      },
+      ExpNeededBD: {
+        mantissa: 1,
+        exponent: 3,
+      },
+      Found: 1,
+    },
+    {
+      ID: 7,
+      Level: 2,
+      PowerTemp: 752.5063539523172,
+      PowerPerma: 480.9740925793228,
+      CurrentExp: 2.8812499999997954,
+      ExpNeeded: 1050,
+      PowerTempBD: {
+        mantissa: 2.78583020284734,
+        exponent: 3,
+      },
+      PowerPermaBD: {
+        mantissa: 4.80974092579323,
+        exponent: 2,
+      },
+      CurrentExpBD: {
+        mantissa: 4.10573025648826,
+        exponent: 2,
+      },
+      ExpNeededBD: {
+        mantissa: 1.1025,
+        exponent: 3,
+      },
+      Found: 1,
+    },
+    {
+      ID: 20,
+      Level: 0,
+      PowerTemp: 0,
+      PowerPerma: 0,
+      CurrentExp: 0,
+      ExpNeeded: 1000,
+      PowerTempBD: {
+        mantissa: 0,
+        exponent: 0,
+      },
+      PowerPermaBD: {
+        mantissa: 0,
+        exponent: 0,
+      },
+      CurrentExpBD: {
+        mantissa: 0,
+        exponent: 0,
+      },
+      ExpNeededBD: {
+        mantissa: 1,
+        exponent: 3,
+      },
+      Found: 0, // To test if non-found cards are styled correctly
+    },
+  ],
 };

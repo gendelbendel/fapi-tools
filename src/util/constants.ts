@@ -1,4 +1,7 @@
-import { InfinityCornerConstant } from "../ts/interfaces/constants.interfaces";
+import {
+  InfinityCornerConstant,
+  CardCollectionConstant,
+} from "../ts/interfaces/constants.interfaces";
 
 const infinityCorner: ReadonlyArray<InfinityCornerConstant> = [
   {
@@ -193,4 +196,91 @@ const infinityCorner: ReadonlyArray<InfinityCornerConstant> = [
   },
 ] as const;
 
-export { infinityCorner };
+const cardCollection: ReadonlyArray<CardCollectionConstant> = [
+  {
+    id: 17,
+    name: "Att/HP",
+  },
+  {
+    id: 1,
+    name: "Potato",
+  },
+  {
+    id: 2,
+    name: "Class",
+  },
+  {
+    id: 3,
+    name: "Skull",
+  },
+  {
+    id: 9,
+    name: "Whack",
+  },
+  {
+    id: 7,
+    name: "Poop",
+  },
+  {
+    id: 4,
+    name: "Confection",
+  },
+  {
+    id: 14,
+    name: "Worm Quantity",
+  },
+  {
+    id: 15,
+    name: "Larva Quantity",
+  },
+  {
+    id: 16,
+    name: "Larva Efficiency",
+  },
+  {
+    id: 8,
+    name: "Milk",
+  },
+  {
+    id: 10,
+    name: "Brewing",
+  },
+  {
+    id: 11,
+    name: "Calcium",
+  },
+  {
+    id: 12,
+    name: "Fermenting",
+  },
+  {
+    id: 13,
+    name: "Residue",
+  },
+  {
+    id: 6,
+    name: "Item Rating",
+  },
+  {
+    id: 5,
+    name: "Reincarnation Exp",
+  },
+  {
+    id: 19,
+    name: "Pet Level Exp",
+  },
+  {
+    id: 18,
+    name: "Pet Damage",
+  },
+  {
+    id: 20,
+    name: "Pet Rank Exp",
+  },
+] as const;
+
+const cardCollectionOrder: ReadonlyArray<number> = [
+  17, 1, 2, 3, 9, 7, 4, 14, 15, 16, 8, 10, 11, 12, 13, 6, 5, 19, 18, 20,
+];
+
+export { infinityCorner, cardCollection, cardCollectionOrder };

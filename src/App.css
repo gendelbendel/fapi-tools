@@ -43,3 +43,30 @@
   list-style-type: none;
   padding-inline-start: 0;
 }
+
+.card-list {
+  text-align: center;
+}
+
+.card-list > table {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card-list > table > tr > td,
+.card-list > table > tr > th {
+  border-right: 1px solid white;
+}
+
+.card-list > table > tr > th {
+  border-bottom: 1px solid white;
+}
+
+.card-list > table > tr > td:last-of-type,
+.card-list > table > tr > th:last-of-type {
+  border-right: none;
+}
+
+.card-not-found {
+  color: #888;
+}

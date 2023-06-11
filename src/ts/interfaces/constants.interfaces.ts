@@ -10,3 +10,8 @@ export interface InfinityCornerConstant {
   growthMulti: number;
   saveKey: keyof FAPISaveData;
 }
+
+export interface CardCollectionConstant {
+  id: number;
+  name: string;
+}
