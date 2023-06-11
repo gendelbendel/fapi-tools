@@ -4,6 +4,7 @@ import Instructions from "./components/Instructions";
 import SaveConverter from "./components/SaveConverter";
 import AscensionInfo from "./components/AscensionInfo";
 import InfinityCorner from "./components/InfinityCorner";
+import CardCollection from "./components/CardCollection";
 import Footer from "./components/Footer";
 
 import { saveDataAtom } from "./util/atoms";
@@ -26,6 +27,7 @@ function App() {
           <div className="card">
             <AscensionInfo />
             <InfinityCorner />
+            <CardCollection />
           </div>
         )}
       </div>
