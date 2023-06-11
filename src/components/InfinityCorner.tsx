@@ -25,16 +25,14 @@ export default function InfinityCorner() {
         />
         Show upgrade names?
       </label>
-      {!showNames && (
-        <div>
-          <p>
-            With upgrades hidden, allows for easy copy/pasting into{" "}
-            <a href="https://docs.google.com/spreadsheets/d/1bY5Ss_6uhoxxxndKr2oSlhtWHM5k4togQkswuBqKrTU/edit#gid=898724723">
-              Hiroko's FAPI_Info spreadsheet
-            </a>
-          </p>
-        </div>
-      )}
+      <div>
+        <p>
+          With upgrades hidden, allows for easy copy/pasting into{" "}
+          <a href="https://docs.google.com/spreadsheets/d/1bY5Ss_6uhoxxxndKr2oSlhtWHM5k4togQkswuBqKrTU/edit#gid=898724723">
+            Hiroko's FAPI_Info spreadsheet
+          </a>
+        </p>
+      </div>
       <div className="infinity-list">
         <ul>
           {infinityCorner.map((upgrade) => (

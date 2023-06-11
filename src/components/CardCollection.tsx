@@ -29,24 +29,33 @@ export default function CardCollection() {
         />
         Show card names?
       </label>
-      {!showNames && (
-        <div>
+      <div>
+        <p>
+          With card names hidden, allows for easy copy/pasting into{" "}
+          <a href="https://docs.google.com/spreadsheets/d/1bY5Ss_6uhoxxxndKr2oSlhtWHM5k4togQkswuBqKrTU/edit#gid=898724723">
+            Hiroko's FAPI_Info spreadsheet
+          </a>
+        </p>
+        {!showNames && (
           <p>
-            With card names hidden, allows for easy copy/pasting into{" "}
-            <a href="https://docs.google.com/spreadsheets/d/1bY5Ss_6uhoxxxndKr2oSlhtWHM5k4togQkswuBqKrTU/edit#gid=898724723">
-              Hiroko's FAPI_Info spreadsheet
-            </a>
+            {" "}
+            Note: Need to "paste special" (ctrl+shift+v) on cell G23 (the Temp
+            Power number for Att/HP) in the Cards tab
           </p>
-          <p> Note: Need to "paste special" (ctrl+shift+v)</p>
-        </div>
-      )}
+        )}
+      </div>
+
       <div className="card-list">
         <table>
           <tr>
-            {showNames && <th>Card Name</th>}
-            <th>Temporary Power</th>
-            <th>Permanent Power</th>
-            <th>Card Level</th>
+            {showNames && (
+              <>
+                <th>Card Name</th>
+                <th>Temporary Power</th>
+                <th>Permanent Power</th>
+                <th>Card Level</th>
+              </>
+            )}
           </tr>
           {cardCollection.map((card) => (
             <tr
