@@ -5,6 +5,7 @@ import SaveConverter from "./components/SaveConverter";
 import AscensionInfo from "./components/AscensionInfo";
 import InfinityCorner from "./components/InfinityCorner";
 import CardCollection from "./components/CardCollection";
+import GearUpgradeCalculator from "./components/GearUpgradeCalculator";
 import Footer from "./components/Footer";
 
 import { saveDataAtom } from "./util/atoms";
@@ -28,6 +29,7 @@ function App() {
             <AscensionInfo />
             <InfinityCorner />
             <CardCollection />
+            <GearUpgradeCalculator />
           </div>
         )}
       </div>
